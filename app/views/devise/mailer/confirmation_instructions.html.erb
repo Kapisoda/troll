@@ -1,0 +1,18 @@
+<p>Welcome <%= @name %><%= @surname %>!</p>
+
+<p>Mozete si pusit kurcinu sa potvrdivanjem ovog maila
+  a i malo jesti govna:</p>
+
+<p><%= link_to 'potvrdite i jedite govna', confirmation_url(@resource, confirmation_token: @token) %></p>
+
+
+
+
+
+<html>
+<body>
+
+<h1 style="color:blue;">This is a Blue Heading</h1>
+
+</body>
+</html>
